@@ -35,3 +35,17 @@ main .wrapper{
 article{
     margin-top: 50px;
 }
+.art-container{
+    display: flex;
+    justify-content: space-between;
+}
+.art-container>*{
+    margin: 0 15px;;
+}
+.art-container p{
+    width: 40em;
+    margin-top: 30px;
+}
+.right-panel #devices{
+    max-width: 30em;
+}
