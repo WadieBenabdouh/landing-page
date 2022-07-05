@@ -10,7 +10,7 @@
 /* MAIN */
 main .wrapper {
   background: url("img/bg-hero-desktop.svg") no-repeat;
-  height: 60em;
+  height: 30em;
   outline: #ff5101 2px solid;
 }
 
@@ -71,4 +71,21 @@ article {
   background: #ff52bf;
   color: #fff;
   border-radius: 50px;
+}
+/* SECTION */
+.cards-container .card-one{
+  margin: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: #000 solid 2px;
+}
+.card-one h3,p{
+  margin: 10px 0;
+}
+.card-one #svg-together{
+  max-width: 350px;
+}
+.card-one p{
+  width: 40em;
 }
