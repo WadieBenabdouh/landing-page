@@ -176,11 +176,16 @@ article {
 .footer-container{
   margin: 5px 30px;
   display: flex;
+  flex-direction: row;
+  
+
 }
 .column-one{
   display: flex;
   flex-direction: column;
   gap: 30px;
+  /* width: fit-content; */
+  margin-right: 10px;
 }
 .location{
   display: flex;
