@@ -72,6 +72,9 @@ article {
   color: #fff;
   border-radius: 50px;
 }
+.left-panel a:hover{
+  box-shadow: 0px 0px 8px #000;
+}
 /* SECTION */
 .cards-container .card-one{
   margin: 110px 50px;
@@ -160,12 +163,57 @@ article {
   background: #ff52bf;
   color: #fff;
   border-radius: 50px;
-  box-shadow: 0px 0px 3px #000;
+}
+.minicard a:hover{
+  box-shadow: 0px 0px 8px #000;
 }
 .footer-wrapper{
-  height: 20em;
+  height: 50em;
   outline: blueviolet 2px solid;
   margin-top: 20em;
-  background: #00252e;
+  background: #5847f8;
 }
+.footer-container{
+  margin: 5px 30px;
+  display: flex;
+}
+.column-one{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.location{
+  display: flex;
+  gap: 20px;
+}
+.location p{
+  width: 30%;
+}
+.gsm{
+  display: flex;
+  gap: 20px;
+}
+.gsm p{
+  width: 30%;
+}
+.email{
+  display: flex;
+  gap: 20px;
+}
+
+.column-two{
+  display: flex;
+}
+.links-one, .links-two{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-inline: 50px;
+}
+.links-one, .links-two, .footer-anchors{
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+}
+
 
