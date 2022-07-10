@@ -22,6 +22,7 @@ main .wrapper {
 
 .header-container .brand-logo {
   margin: 20px;
+  max-width: 300px;
 }
 
 .header-container a {
@@ -308,4 +309,30 @@ p {
   margin-right: 20px;
   font-size: small;
 }
+
+
+
+
+
+
+
+
 /* === MEDIA QUERY === */
+@media (max-width: 768px){
+  /* HEADER */
+  .header-container{
+    align-items: center;
+  }
+  .brand-logo{
+    width: 150px;
+    height: 30px;
+    margin: 0;
+  }
+  .header-container a{
+    max-width: 100px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    
+  }
+}
