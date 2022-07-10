@@ -91,8 +91,7 @@ article {
   border-radius: 10px;
 }
 
-.card-one h3,
-p {
+.card-one h3,p {
   margin: 10px 0;
 }
 
@@ -343,7 +342,8 @@ p {
     flex-wrap:  wrap;
   }
   .art-container>* {
-    margin: 0 70px;
+    margin: 0 10px;
+    width: 300px;
   }
   .art-container h2{
     text-align: center;
@@ -366,5 +366,61 @@ p {
     margin-top: 50px;
   }
 
+  /* SECTION - CARDS 1 */
+ .cards-container{
+  margin-top: 12em;
+}
+.cards-container #svg-card{
+  max-width: 250px;
+}
+.card-one{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card-one p {
+  width: 200px;
+}
+.card-one .caption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
+/* SECTION - CARDS 2 */
+.card-two{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.card-two .caption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.card-two p {
+  width: 200px;
+}
+
+
+/* SECTION - CARDS 3 */
+.card-three{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.card-three .caption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.card-three p {
+  width: 200px;
+}
 }
