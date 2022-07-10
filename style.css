@@ -30,7 +30,7 @@ main .wrapper {
   margin: 20px;
   border: 1px solid #dad4d4;
   border-radius: 50px;
-  padding: 5px 30px;
+  padding: 15px 30px;
   font-weight: bold;
   color: #000;
   box-shadow: 0px 0px 5px #b8b6b6;
@@ -57,12 +57,12 @@ article {
   margin-top: 30px;
 }
 
-.right-panel #devices {
+/* .right-panel #devices {
   max-width: 30em;
   position: absolute;
   top: -40px;
   left: 45em;
-}
+} */
 
 .left-panel a {
   text-decoration: none;
@@ -324,7 +324,7 @@ p {
     align-items: center;
   }
   .brand-logo{
-    width: 150px;
+    width: 170px;
     height: 30px;
     margin: 0;
   }
@@ -333,6 +333,38 @@ p {
     font-size: 10px;
     text-align: center;
     padding: 10px 20px;
-    
   }
+  /* ARTICLE */
+  .art-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:  wrap;
+  }
+  .art-container>* {
+    margin: 0 70px;
+  }
+  .art-container h2{
+    text-align: center;
+    width: 15em;
+  }
+  .art-container p {
+    width: fit-content;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .left-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-panel #devices {
+    max-width: 20em;
+    outline: red solid 2px;
+    margin-top: 50px;
+  }
+
+
 }
