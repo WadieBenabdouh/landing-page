@@ -167,58 +167,98 @@ article {
 .minicard a:hover{
   box-shadow: 0px 0px 8px #000;
 }
+/* WRAPPER */
 .footer-wrapper{
   height: 50em;
   outline: blueviolet 2px solid;
   margin-top: 20em;
   background: #5847f8;
 }
+
 .footer-container{
   margin: 5px 30px;
   display: flex;
   flex-direction: row;
-  
-
+  justify-content: center;
 }
-.column-one{
+        /* CASE 1 */
+.case-one{
+  width: 40%;
+}
+.details{
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-  /* width: fit-content; */
-  margin-right: 10px;
+  flex-flow: column;
+  margin-top: 3em;
+  /* outline: red  solid 2px; */
 }
+/* location */
 .location{
   display: flex;
-  gap: 20px;
 }
-.location p{
-  width: 30%;
+.location #gps-icon{
+  width: 30px;
+  position: relative;
+  top: 10px;
 }
+.location > *{
+  margin-inline: 10px;
+}
+/* gsm */
 .gsm{
   display: flex;
-  gap: 20px;
 }
-.gsm p{
-  width: 30%;
+.gsm #gsm-icon{
+  position: relative;
+  top: 10px;
 }
-.email{
+.gsm > *{
+  margin-inline: 9px;
+}
+/* mail */
+.mail{
   display: flex;
-  gap: 20px;
 }
-
-.column-two{
+.mail #mail-icon{
+  position: relative;
+  top: 10px;
+}
+.mail > *{
+  margin-inline: 9px;
+}
+      /* CASE 2 */
+.case-two{
+  margin-top: 6.3em;
   display: flex;
+  /* outline: red solid 2px; */
 }
-.links-one, .links-two{
+.row-one a, .row-two a{
+  text-decoration: none;
+  margin-inline: 30px;
+  padding: 5px 0;
+  color: #fff;
+}
+.row-one{
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  margin-inline: 50px;
 }
-.links-one, .links-two, .footer-anchors{
-  text-decoration: none;
+.row-two{
+  display: flex;
+  flex-direction: column;
+}
+      /* CASE 3 */
+.case-three{
+  margin-top: 6.5em;
+  /* outline: green 2px solid; */
+  width: 20em;
+  display: flex;
+  justify-content: center;
+}
+.case-three > *{
+  font-size: 20px;
+  padding-inline: 5px;
   color: #fff;
-  width: 100px;
 }
+
+
 
 
